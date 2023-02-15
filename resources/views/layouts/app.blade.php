@@ -77,6 +77,9 @@
                         <li class="nav-item">
                             <a href="{{route('product.index')}}" class="nav-link">{{__('Pesan Tiket')}}</a>
                         </li>
+                        <li class="nav-item">
+                            <a href="https://www.itenas.ac.id/" class="nav-link">{{__('Itenas')}}</a>
+                        </li>
                         @auth
                             @if(Auth::user()->role === 'member')
                                 <li class="nav-item">
